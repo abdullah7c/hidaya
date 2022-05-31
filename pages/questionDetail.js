@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import QuestionDetailLayout from '/components/layouts/QuestionDetailLayout';
+import QuestionDetailLayout from '/components/Layouts/QuestionDetailLayout';
 
 const questionDetail = ({questions, reference}) => {
   return (
