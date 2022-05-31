@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import ClientLayout from '../components/Shared/ClientLayout'
+import ClientLayout from '/components/Shared/ClientLayout'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '/styles/globals.css'
 import '/styles/main.scss';

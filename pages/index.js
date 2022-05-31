@@ -3,7 +3,7 @@ import Cookies from 'cookies'
 import Router from 'next/router';
 import Image from 'next/image';
 import { Spinner } from 'react-bootstrap';
-import HomeLayout from '../components/Layouts/HomeLayout';
+import HomeLayout from '/components/Layouts/HomeLayout';
 
 export default function Home({route}) {
 

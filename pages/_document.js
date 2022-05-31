@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript, } from "next/document";
   
 const Document = () => {
       return (
-        <Html lang="en" class="notranslate" translate="no">
+        <Html lang="en" className="notranslate" translate="no">
           <Head>
           <meta name="google" content="notranslate" />
             <link rel="preload" href="/fonts/JameelNooriNastaleeqRegular.ttf" as="font" type="font/ttf" crossOrigin="" />
