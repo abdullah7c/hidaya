@@ -1,5 +1,5 @@
 import React from 'react'
-import AskQuestionLayout from '/components/layouts/AskQuestionLayout'
+import AskQuestionLayout from '/components/layouts/AskQuestionLayout/'
 import axios from 'axios'
 
 const askQuestion = ({topics}) => {
