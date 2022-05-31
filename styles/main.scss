@@ -1,0 +1,199 @@
+@import '_header.scss';
+@import '_editor.scss';
+@import '_questionLayout.scss';
+@import '_detailQuestion.scss';
+@import '_askQuestions.scss';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap");
+
+@font-face {
+    font-family: "Nafees Regular";
+    src:url('/fonts/JameelNooriNastaleeqRegular.ttf') format("trueType");
+}
+  
+@font-face {
+font-family: "Arbic";
+src: local("Arbic"),
+    url('../public/fonts/MuhammadiQuranicFont.ttf')
+    /* url(../public/Jameel-Noori-Nastaleeq-Regular.ttf) */ format("truetype");
+}
+
+.font-english{
+    font-family: 'Alata', sans-serif!important;
+}
+.font-urdu {
+    font-family: "Nafees Regular" !important;
+}
+.font-arbic {
+    font-family: "Arbic" !important;
+}
+.roboto{
+    font-family: 'Alata', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.center-loader{
+  margin-top: 20%;
+  text-align: center;
+}
+.fade-in{
+    animation: fadeIn linear 0.3s;
+    -webkit-animation: fadeIn linear 0.3s;
+    -moz-animation: fadeIn linear 0.3s;
+    -o-animation: fadeIn linear 0.3s;
+    -ms-animation: fadeIn linear 0.3s;
+}
+ @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  .fade-out{
+    animation: fadeOut linear 0.3s;
+    -webkit-animation: fadeOut linear 0.3s;
+    -moz-animation: fadeOut linear 0.3s;
+    -o-animation: fadeOut linear 0.3s;
+    -ms-animation: fadeOut linear 0.3s;
+  }
+  @keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  @-moz-keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  @-webkit-keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  @-o-keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  @-ms-keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+.f-10{ font-size: 10px!important; }
+.f-12{ font-size: 12px!important; }
+.f-15{ font-size: 15px!important; }
+.f-16{ font-size: 16px!important; }
+.f-18{ font-size: 18px!important; }
+.f-20{ font-size: 20px!important; }
+.f-22{ font-size: 22px!important; }
+.f-25{ font-size: 25px!important; }
+.f-27{ font-size: 27px!important; }
+.f-30{ font-size: 30px!important; }
+.f-35{ font-size: 35px!important; }
+
+.rl{
+  float: right;
+}
+.ra{
+  text-align: right;
+}
+
+.arabic-bg-two{
+    background-image: url("/images/pattern.png");
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.arabic-bg{
+  background-image: url("/images/pattern.png");
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+.box{
+  background-color: white;
+  border-radius: 10px;
+  min-height: 50px;
+  max-width: 58vw;
+
+  box-shadow: 0px 0px 26px -15px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 26px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 26px -15px rgba(0,0,0,0.75);
+}
+
+.first-btn-en{
+  border:2px solid rgba(192, 192, 192, 0.466);
+  background-color: white;
+  border-radius:6px;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 10px 40px 10px 40px;
+  float: right;
+}
+
+.first-btn-ur{
+  border:2px solid rgba(192, 192, 192, 0.466);
+  background-color: white;
+  border-radius:6px;
+  font-weight: 700;
+  font-size: 43px;
+  padding: 0px 70px 0px 70px;
+}
+.first-btn-en:hover{
+  transition-duration: 300ms;
+  background-color: rgba(192, 192, 192, 0.349);
+}
+.first-btn-ur:hover{
+  transition-duration: 300ms;
+  background-color: rgba(192, 192, 192, 0.349);
+}
+
+.auto-width{
+  max-width:47vw;
+}
+
+.btn-custom-two{
+  border: none;
+  background-color:#333c6f;
+  padding: 10px 20px 10px 20px;
+  border-radius: 25px;
+  color: white;
+  //transform: rotate(-90deg);
+}
+.btn-custom-two:hover{
+  transition-duration: 400ms;
+  background-color:#252b50;
+}
+
+// selectors for scroll on top button
+#__next > div > div > button >svg {
+
+}
+.accordion-button:not(.collapsed){
+  background-color: white;
+}
+.accordion-button:focus{
+  border-color: #000814!important;
+}
+
+@media screen and (max-width: 1800px){ .box{ max-width: 58vw; } .auto-width{ max-width: 58vw; } }
+@media screen and (max-width: 1600px){ .box{ max-width: 68vw; } .auto-width{ max-width: 55vw; } }
+@media screen and (max-width: 1400px){ .box{ max-width: 80vw; } .auto-width{ max-width: 80vw; } }
+@media screen and (max-width: 1440px){ .box{ max-width: 80vw; } .auto-width{ max-width: 65vw; } }
+@media screen and (max-width: 1300px){                          .auto-width{ max-width: 65vw; } }
+@media screen and (max-width: 1280px){                          .auto-width{ max-width: 64vw; } }
+@media screen and (max-width: 1200px){ .box{ max-width: 90vw; } .auto-width{ max-width: 73vw; } }

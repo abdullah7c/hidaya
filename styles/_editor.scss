@@ -1,0 +1,26 @@
+.editor {
+  .wrapper-class {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.31); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.31);
+  }
+  .editor-class {
+    background-color:white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    min-height: 200px;
+  }
+  .toolbar-class {
+    border: 1px solid #ccc;
+    background-color: rgba(117, 142, 156, 0.103);
+  }
+  div.rdw-editor-toolbar.toolbar-class > div.rdw-fontsize-wrapper > div > a{
+    text-decoration: none;
+    color: black;
+  }
+  div.rdw-editor-toolbar.toolbar-class > div.rdw-fontsize-wrapper > div{
+    min-width: 47px;
+  }
+}

@@ -1,0 +1,92 @@
+.detail-questions{
+    .ur-font{
+        font-family: "Nafees Regular" !important;
+        transition: 0.3s all;
+        animation: fadeInAnimation ease 0.4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    .transition{
+        transition: 0.3s all;
+        animation: fadeInAnimation ease 0.4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+    .white-bar{
+        background-color: white;
+        min-height: 100px;
+        width: 85%;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.089);
+        padding: 20px 20px 20px 25px;
+    }
+    @media screen and (min-width: 1400px){
+        .white-bar{
+            width: 80%;
+        }
+        .search > .icon{
+            left: 210px;
+        }
+    }
+    @media screen and (min-width: 1599px){
+        .search > .icon{
+            left: 210px;
+        }
+        .white-bar{
+            width: 70%;
+        }
+    }
+    @media screen and (min-width: 1800px){
+        .search > .icon{
+            left: 210px;
+        }
+        .white-bar{
+            width: 60%;
+        }
+    }
+    .topic{
+        font-size: 22px;
+        font-weight: 450;
+    }
+    .ledger{
+        font-size: 18px;
+        font-weight: 450;
+    }
+    .ledger > span{ color:rgb(161, 161, 161); font-weight: 400;}
+
+    .reference{
+        color: black;
+        font-size: 55px!important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 17px!important;
+    }
+    .custom-editor{
+        font-size: 25px;
+    }
+    
+}
+.detail-questions p{
+    font-size: 17px;
+}
+.detail-questions .urdu-ans p{
+    font-size: 25px;
+}
+.detail-questions .reference p{
+    font-size: 25px;
+    line-height: 40px;
+}
